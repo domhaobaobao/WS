@@ -1,0 +1,18 @@
+<assembly>
+    <id>shared</id>
+    <formats>
+        <format>jar</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <dependencySets>
+        <dependencySet>
+            <unpack>true</unpack>
+            <scope>runtime</scope>
+            <includes>
+                <include>
+                    *sensegraph*
+                </include>
+            </includes>
+        </dependencySet>
+    </dependencySets>
+</assembly>
